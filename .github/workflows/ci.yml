@@ -37,3 +37,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install setuptools wheel twine investpy
+
+      - name: Run tests
+        run: |
+          pytest
