@@ -41,7 +41,7 @@ jobs:
 
       - name: Run Pylint
         run: |
-            pylint `ls -R|grep .py$|xargs`
+            pylint `find . -type f|grep .py$|xargs`
 
       - name: Run unit tests
         run: |
