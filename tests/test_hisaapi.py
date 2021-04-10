@@ -19,8 +19,9 @@ class TestHisaApi(TestCase):
 
         investpy_get.return_value = test_data
 
-        price = HisaApi.get_current_price_euro(stock='AAPL', country='United states')
-        self.assertAlmostEqual(price, 102)
+        expected_price_eur = 117.76
+        actual_price_eur = HisaApi.get_current_price_euro(stock='AAPL', country='United states')
+        self.assertAlmostEqual(expected_price_eur, actual_price_eur)
 
 
 if __name__ == '__main__':
