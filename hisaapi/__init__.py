@@ -1,7 +1,13 @@
+'''API for retrieving current price of a stock in Euro currency '''
+
 import investpy
 
 class HisaApi:
-    def get_current_price_euro(stock, country):
+    '''
+    Class holding public API
+    '''
+
+    def get_current_price_euro(self, stock, country):
         '''
         Get current price of a stock in Euros.
 
