@@ -1,11 +1,11 @@
 '''Unit tests for checking functionality of  hisaapi'''
 
-from hisaapi import HisaApi
-
 import json
 import unittest
 from unittest.mock import patch
 from unittest import TestCase
+
+from hisaapi import HisaApi
 
 class TestHisaApi(TestCase):
     '''
