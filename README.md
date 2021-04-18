@@ -10,4 +10,4 @@ price = hisaapi.get_current_price_euro(stock='AAPL', country='United states')
 ```
 
 ### Status
-* [![Build Status](https://github.com/hassansalehe/hisaapi/workflows/ci/badge.svg)](https://github.com/hassansalehe/hisaapi/actions?query=workflow%3Aci)
+* [![Build Status](https://github.com/hassansalehe/hisaapi/actions/workflows/ci.yml/badge.svg)](https://github.com/hassansalehe/hisaapi/actions?query=workflow%3Aci)
